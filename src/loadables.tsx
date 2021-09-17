@@ -16,4 +16,4 @@ export const PasswordReset: LoadableComponent<any> = loadable(() => import('@con
 export const Home: LoadableComponent<any> = loadable(() => import('@containers/home'), { fallback });
 
 // prettier-ignore
-export const NotFound: LoadableComponent<any> = loadable(() => import('@containers/not-found'), { fallback });
+export const NotFound: LoadableComponent<any> = loadable(() => import('@containers/old/not-found'), { fallback });
