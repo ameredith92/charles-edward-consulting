@@ -5,10 +5,20 @@ import { Wrapper } from '@components';
 
 export const Home: React.FunctionComponent = () => {
 	const { t } = useTranslation();
-
+	const styles = {
+		color: 'red',
+		fontSize: '16px',
+		textAlign: 'center'
+	};
 	return (
 		<Wrapper>
-			<div className="o-shell">{t('Homepage')}</div>
+			<h2 style={styles}>DON'T SETTLE FOR LESS</h2>
+			<h3 style={{ color: 'green' }}>Our Services</h3>
+
+			<p>
+				Charles Edward Enterprises is a coaching, consulting, advertising and target marketing agency that
+				markets both time and financial freedom.
+			</p>
 		</Wrapper>
 	);
 };
